@@ -1,0 +1,211 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/porndroids-downloader",
+  "serply_link": "https://serp.ly/porndroids-downloader",
+  "app_name": "Porndroids Video Downloader",
+  "short_description": "Download & Save Porndroids Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "This extension is built around Porndroids' distinctive droids/tech-ish brand identity and its clean slug-only /video/{slug}/ page structure. It accounts for the way Porndroids delegates playback through an embedded iframe rather than exposing the media URL directly on the outer page, making stream discovery more straightforward.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/porndroids-downloader-fullscreen-01-b7d97d9635.webp",
+    "https://apps.serp.co/media/optimized-products/porndroids-downloader-fullscreen-02-3cc9757778.webp",
+    "https://apps.serp.co/media/optimized-products/porndroids-downloader-fullscreen-03-f293caaf44.webp",
+    "https://apps.serp.co/media/optimized-products/porndroids-downloader-fullscreen-04-dfa6afd980.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "What Porndroids pages does this extension work with?",
+      "answer": "It works with video pages that use the /video/{slug}/ URL pattern, such as /video/broke-amateurs/."
+    },
+    {
+      "question": "Why does Porndroids use an iframe for playback?",
+      "answer": "Porndroids delegates video playback to an embedded iframe rather than exposing the media URL directly on the outer page. The extension accounts for this behavior."
+    },
+    {
+      "question": "What media formats are supported?",
+      "answer": "The extension targets M3U8 and MP4 sources as confirmed from the page structure."
+    },
+    {
+      "question": "Is this extension affiliated with Porndroids?",
+      "answer": "No. This is an independent tool built by SERP Apps for user convenience."
+    },
+    {
+      "question": "Do I need an account on Porndroids to use this extension?",
+      "answer": "No account is required. You can use the extension on publicly accessible video pages."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Keeping a backup copy of content you have permission to save"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Focused on Porndroids' slug-only /video/{slug}/ video page structure",
+    "Handles iframe-embedded playback handoff for stream detection",
+    "Targets confirmed M3U8 and MP4 media sources",
+    "Built around Porndroids' droids/tech-ish brand identity",
+    "Verified target coverage with cautious readiness language",
+    "Works with Porndroids slug-only /video/{slug}/ video pages",
+    "Outputs standard MP4 files for broad compatibility",
+    "Clean popup interface for controlling downloads",
+    "No account or login required on Porndroids",
+    "Lightweight extension that does not slow down browsing",
+    "Privacy-focused with no tracking or data collection"
+  ],
+  "content": {
+    "why": [
+      "Porndroids uses a clean page structure where each video lives at a simple /video/{slug}/ URL. However, the actual media playback happens inside an embedded iframe rather than directly on the page. This separation means the video source is not immediately visible, and standard browser tools may not easily capture the stream.",
+      "Porndroids Downloader bridges that gap by working with the iframe layer to locate the media source. It is built specifically for Porndroids' page model and brand identity, so you get a tool that understands how the site actually delivers its content rather than a generic downloader that may miss the embedded player."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Porndroids and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install the Porndroids Downloader extension from the latest GitHub release.",
+      "Open your browser and navigate to Porndroids.",
+      "Find a video page that follows the /video/{slug}/ URL pattern, such as /video/broke-amateurs/.",
+      "Click on the video to start playback on the page.",
+      "Click the Porndroids Downloader icon in your browser toolbar to open the popup.",
+      "The extension will detect the media source from the embedded player.",
+      "Select your preferred quality option if multiple are available.",
+      "Click the download button and save the resulting MP4 file to your device."
+    ],
+    "supported_formats": [
+      "Input: M3U8 and MP4 media sources delivered through Porndroids iframe-embedded players on /video/{slug}/ pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Porndroids users who want to save videos for offline viewing",
+      "Users who prefer having local copies of their favorite content",
+      "People who encounter Porndroids video pages and need a reliable way to capture the media",
+      "Anyone who wants to bypass the need for screen recording or other workarounds"
+    ],
+    "use_cases": [
+      "Saving a Porndroids video to watch later without an internet connection",
+      "Building a personal archive of videos from Porndroids",
+      "Transferring a Porndroids video to another device for playback",
+      "Keeping a backup copy of content you have permission to save",
+      "Avoiding repeated streaming of the same video to save bandwidth"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any media on a Porndroids page Make sure the video is playing or has been loaded on the page. The extension needs the iframe to load its content before it can detect the media source.",
+      "The download starts but fails partway through Check your internet connection and try again. If the issue persists, the video source may be temporarily unavailable on Porndroids.",
+      "I see an error about unsupported page format Ensure you are on a Porndroids page that follows the /video/{slug}/ pattern. Other page types may not be supported.",
+      "The extension icon appears grayed out The extension only activates on supported Porndroids video pages. Navigate to a valid video page and refresh if needed.",
+      "The downloaded file will not play Make sure you have a media player that supports MP4 files. Most modern players including VLC, Windows Media Player, and QuickTime should work."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Porndroids page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Porndroids Downloader works with the porndroids.com, www.porndroids.com, and xiaoshenke.net domains",
+      "This extension is verified as a target but presented with cautious readiness language due to configuration notes"
+    ],
+    "about": [
+      "Porndroids is a video platform with a distinctive droids/tech-ish brand identity and a clean page structure that uses simple /video/{slug}/ URLs for its content. This extension helps users capture media from Porndroids video pages by working with the site's iframe-based playback model and delivering MP4 output."
+    ]
+  },
+  "serpx_link": "https://serpx.link/porndroids-downloader",
+  "github_topics": [
+    "porndroids-download",
+    "porndroids-downloader",
+    "porndroids-video-downloader",
+    "porndroids-video-downloader-online",
+    "porndroids-video-downloader-mac",
+    "porndroids-video-downloader-window",
+    "porndroids-video-downloader-free",
+    "porndroids-video-downloader-extension",
+    "porndroids-video-downloader-app",
+    "porndroids-video-downloader-chrome",
+    "porndroids-video-downloader-from-url",
+    "how-to-download-porndroids-videos",
+    "how-to-download-porndroids-videos-mac",
+    "how-to-download-porndroids-videos-windows",
+    "how-to-download-porndroids-videos-online",
+    "how-to-download-porndroids-videos-free",
+    "how-to-download-from-porndroids",
+    "how-to-download-videos-from-porndroids",
+    "download-porndroids-videos",
+    "porndroids-video-tutorial",
+    "save-porndroids-videos",
+    "porndroids-video-content-saver",
+    "how-to-download-porndroids-videos-for-free"
+  ],
+  "hashtags": [
+    "#PorndroidsDownload",
+    "#PorndroidsDownloader",
+    "#PorndroidsVideoDownloader",
+    "#PorndroidsVideoDownloaderOnline",
+    "#PorndroidsVideoDownloaderMac",
+    "#PorndroidsVideoDownloaderWindow",
+    "#PorndroidsVideoDownloaderFree",
+    "#PorndroidsVideoDownloaderExtension",
+    "#PorndroidsVideoDownloaderApp",
+    "#PorndroidsVideoDownloaderChrome",
+    "#PorndroidsVideoDownloaderFromURL",
+    "#HowToDownloadPorndroidsVideos",
+    "#HowToDownloadPorndroidsVideosMac",
+    "#HowToDownloadPorndroidsVideosWindows",
+    "#HowToDownloadPorndroidsVideosOnline",
+    "#HowToDownloadPorndroidsVideosFree",
+    "#HowToDownloadFromPorndroids",
+    "#HowToDownloadVideosFromPorndroids",
+    "#DownloadPorndroidsVideos",
+    "#PorndroidsVideoTutorial",
+    "#SavePorndroidsVideos",
+    "#PorndroidsVideoContentSaver",
+    "#HowToDownloadPorndroidsVideosForFree"
+  ],
+  "youtube_tags": [
+    "Porndroids Download",
+    "Porndroids Downloader",
+    "Porndroids Video Downloader",
+    "Porndroids Video Downloader Online",
+    "Porndroids Video Downloader Mac",
+    "Porndroids Video Downloader Window",
+    "Porndroids Video Downloader Free",
+    "Porndroids Video Downloader Extension",
+    "Porndroids Video Downloader App",
+    "Porndroids Video Downloader Chrome",
+    "Porndroids Video Downloader From URL",
+    "How To Download Porndroids Videos",
+    "How To Download Porndroids Videos Mac",
+    "How To Download Porndroids Videos Windows",
+    "How To Download Porndroids Videos Online",
+    "How To Download Porndroids Videos Free",
+    "How To Download From Porndroids",
+    "How To Download Videos From Porndroids",
+    "Download Porndroids Videos",
+    "Porndroids Video Tutorial",
+    "Save Porndroids Videos",
+    "Porndroids Video Content Saver",
+    "How To Download Porndroids Videos For Free"
+  ]
+}
